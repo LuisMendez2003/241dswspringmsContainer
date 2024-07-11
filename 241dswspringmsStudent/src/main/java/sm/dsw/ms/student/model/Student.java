@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-package sm.dsw.ms.student.model;
-
-import jakarta.persistence.*;
-import java.util.Date;
-
-@Entity
-@Table(name = "estudiante")
-public class Student {
-    
-    @Id
-    private String id_estudiante;
-    
-    private Long id_usuario;
-    
-    private String escuela;
-    private String anio_ingreso;
-    private Long ciclo;
-    private Date fecha_nacimiento;
-}
-=======
 
 package sm.dsw.ms.student.model;
 
@@ -128,4 +107,3 @@ public class Student {
     }
     
 }
->>>>>>> eb43a41ca3990eeb343c32299eb589d2d3aaa0ae
