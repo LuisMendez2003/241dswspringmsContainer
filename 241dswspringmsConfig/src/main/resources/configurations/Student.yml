@@ -12,10 +12,9 @@ spring:
     password: modulo4
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     #database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect      
-
 eureka:
   instance:
     hostname: localhost

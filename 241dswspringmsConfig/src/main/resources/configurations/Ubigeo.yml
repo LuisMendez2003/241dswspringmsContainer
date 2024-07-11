@@ -1,0 +1,22 @@
+server:
+  port: 7090
+spring:
+  application:
+    name: 241dswspringmsUbigeo
+  config:
+    import: optional:configserver:http://localhost:8888
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-cp4ga6f79t8c73eg22k0-a.oregon-postgres.render.com/sisvita_database_deploy
+    username: sisvita_database_deploy_user
+    password: cPPh56uc8s55YgzMq0GJVZaRMwy7pMLq
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect 
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

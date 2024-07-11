@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: 241dswspringmsEureka
-  config:
-    import: optional:configserver:http://localhost:8888
 
 eureka:
   instance:

@@ -1,4 +1,4 @@
-package sm.dsw.ms.student;
+package sm.dsw.ms.ubigeo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan("sm.dsw.ms.student")
+@ComponentScan("sm.dsw.ms.ubigeo")
 public class Application {
 
 	public static void main(String[] args) {

@@ -51,5 +51,6 @@
       <module>241dswspringmsStudent</module>
       <module>241dswspringmsCourse</module>
       <module>241dswspringmsGateway</module>
+      <module>241dswspringmsUbigeo</module>
   </modules>
 </project>
