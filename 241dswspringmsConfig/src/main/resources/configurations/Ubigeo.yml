@@ -7,9 +7,9 @@ spring:
     import: optional:configserver:http://localhost:8888
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://dpg-cp4ga6f79t8c73eg22k0-a.oregon-postgres.render.com/sisvita_database_deploy
-    username: sisvita_database_deploy_user
-    password: cPPh56uc8s55YgzMq0GJVZaRMwy7pMLq
+    url: jdbc:postgresql://dpg-cq7rp5uehbks739538ug-a.oregon-postgres.render.com/sisvita_ubigeo
+    username: sisvita_ubigeo_user
+    password: g37ecmKS6raURRuUd60H4XyRfKTUYfkM
   jpa:
     hibernate:
       ddl-auto: none
